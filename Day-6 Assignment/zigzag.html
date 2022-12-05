@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .flex{
+                display: flex;
+                width: 60%;
+                margin: auto;
+            }
+            .flex>div{
+                width: 200px;
+                height: 150px;
+                background-color: teal;
+                margin: 20px;
+                border-radius: 5px;
+            }
+            .expand{
+                flex-grow: 1;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="flex">
+            <div></div>
+            <div class="expand"></div>
+            <div></div>
+        </div>
+        <div class="flex">
+            <div class="expand"></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="flex">
+            <div></div>
+            <div></div>
+            <div class="expand"></div>
+        </div>
+    </body>
+</html> 
